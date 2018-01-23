@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<script src="js/modernizr.custom.17475.js"></script>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <style type="text/css">
+  	body{
+    	background:url(images/body-bg-ie.png) repeat-x 0 730px;
+    }
+  	.menu, .elastislide-wrapper{
+    	background:url(images/opacity.png);
+    }
+   </style>
+<![endif]-->
+<title>Fashion photographer</title>
+</head>
+
+<body>
+<div class="karkas">
+	<div class="header">
+    	<a href="/"><img src="images/logo.png" class="logo" alt="Fashion photographer" /></a>
+        
+        <ul class="menu">
+        	<li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">EXHIBITIONS</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+        </ul>
+    </div>
+    
+    <div class="content-main">
+    	
+        <!-- Elastislide Carousel -->
+				<ul id="carousel" class="elastislide-list">
+					<li><a href="#"><img src="images/small/karusel1.png" alt="image01" /></a></li>
+					<li><a href="#"><img src="images/small/karusel2.png" alt="image02" /></a></li>
+					<li><a href="#"><img src="images/small/karusel3.png" alt="image03" /></a></li>
+					<li><a href="#"><img src="images/small/karusel4.png" alt="image04" /></a></li>
+					<li><a href="#"><img src="images/small/karusel1.png" alt="image01" /></a></li>
+					<li><a href="#"><img src="images/small/karusel2.png" alt="image02" /></a></li>
+					<li><a href="#"><img src="images/small/karusel3.png" alt="image03" /></a></li>
+					<li><a href="#"><img src="images/small/karusel4.png" alt="image04" /></a></li>
+                    <li><a href="#"><img src="images/small/karusel1.png" alt="image01" /></a></li>
+					<li><a href="#"><img src="images/small/karusel2.png" alt="image02" /></a></li>
+					<li><a href="#"><img src="images/small/karusel3.png" alt="image03" /></a></li>
+					<li><a href="#"><img src="images/small/karusel4.png" alt="image04" /></a></li>
+                    <li><a href="#"><img src="images/small/karusel1.png" alt="image01" /></a></li>
+					<li><a href="#"><img src="images/small/karusel2.png" alt="image02" /></a></li>
+					<li><a href="#"><img src="images/small/karusel3.png" alt="image03" /></a></li>
+					<li><a href="#"><img src="images/small/karusel4.png" alt="image04" /></a></li>
+                    <li><a href="#"><img src="images/small/karusel1.png" alt="image01" /></a></li>
+					<li><a href="#"><img src="images/small/karusel2.png" alt="image02" /></a></li>
+					<li><a href="#"><img src="images/small/karusel3.png" alt="image03" /></a></li>
+					<li><a href="#"><img src="images/small/karusel4.png" alt="image04" /></a></li>
+				</ul>
+				<!-- End Elastislide Carousel -->
+        
+        <div class="content-main-bocks">
+        
+        	<div>
+            	<a href="#"><img src="images/mail-news1.jpg" alt="" /></a>
+                <h1><a href="#">Hi, My Name Is Anne Photographer</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi odio, sollicitudin at condimentum at, mattis a ligula. </p>
+
+				<p>Ut vitae urna quis massa consectetur cursus ultricies in tellus. Aliquam sed odio in neque mattis laoreet. Cras lacus purus,</p>
+                <p><a href="#" class="read-more">read more</a></p>
+            </div>
+            
+            <div>
+            	<a href="#"><img src="images/mail-news2.jpg" alt="" /></a>
+                <h1><a href="#">Exhibition Now On</a></h1>
+                <p>Nam egestas sapien molestie lorem auctor eget scelerisque neque tincidunt. Ut iaculis leo non sem can <a href="#">this is an inline link</a>. Maecenas mi massa, interdum at sagittis eu, imperdiet a dui. Duis sit amet tortor leo. Fusce tempor pellentesque mollis. Sed tincidunt elit sit amet ipsum fermentum venenatis.</p>
+                <p><a href="#" class="read-more">read more</a></p>
+            </div>
+            
+            <div>
+            	<a href="#"><img src="images/mail-news3.jpg" alt="" /></a>
+                <h1><a href="#">Latest Photo Shoot</a></h1>
+                <p>Donec mollis suscipit nisi, vitae sagittis arcu euismod at. In at turpis vel odio fringilla vulputate at ac tellus. Phasellus nulla leo, vehicula sit amet congue eget, viverra ut augue epharetra aliquet turpis vel scelerisque. 
+Nullam ut enim nisi. Vivamus ut neque nulla. est aliquam consectetur augue et est dapibus ;</p>
+                <p><a href="#" class="read-more">read more</a></p>
+            </div>
+            
+               
+        </div>
+        
+    </div>    
+</div>
+<div class="footer-wrapper">
+	<div class="footer-main">
+    	<div class="footer-left">
+        	<a href="/"><img src="images/logo-ftr.jpg" alt="" /></a>
+            <p>copyright 2011 <a href="#">www.yoururl.com</a></p>
+        </div>
+        <div class="footer-right">
+        	<a href="#"><img src="images/twitter.jpg" alt="" /></a>
+            <a href="#"><img src="images/facebook.jpg" alt="" /></a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquerypp.custom.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript">
+			
+	$( '#carousel' ).elastislide();
+			
+</script>
+</body>
+</html>
