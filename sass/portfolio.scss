@@ -1,0 +1,10 @@
+/* PORTFOLIO page */
+
+.portfolio-image {
+  float: left;
+  margin: 0 0 30px 0;
+}
+
+.portfolio-image:nth-child(2n) {
+  float: right;
+}

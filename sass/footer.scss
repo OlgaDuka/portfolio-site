@@ -1,0 +1,38 @@
+.footer-wrapper{
+  background: #080808;
+}
+
+.footer-main {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.footer-left {
+  float: left;
+
+  img {
+    float: left;
+  }
+
+  p {
+    float: left;
+    color: #fefcfc;
+    font-size: 14px;
+    padding: 14px 0 0 10px;
+
+    a {
+      color: #fefcfc;
+    }
+  }
+}
+
+.footer-right {
+  float: right;
+  margin: 10px 0 0 0;
+
+  img {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,50 @@
+.content-main{
+  color: #565656;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 40px 0;
+
+  a {
+    color: #777777;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #dbdada;
+    font-size: 17px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+
+    a {
+      color: #dbdada;
+    }
+  }
+
+  img {
+    border: 2px solid #151515;
+    margin: 0 0 20px 0;
+    display: block;
+  }
+}
+
+.content-main-bocks {
+  overflow: hidden;
+
+  div {
+    float: left;
+    width: 277px;
+    margin: 0 21px;
+  }
+}
+
+.read-more {
+  color: #000000!important;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 7px;
+  background: #444444;
+}

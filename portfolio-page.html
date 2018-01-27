@@ -1,50 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-
-<link rel="stylesheet" href="css/liSlidik.css">
-<link rel="stylesheet" href="css/liSlidik.blackClasic.css">
-<script src="js/jquery-1.8.min.js"></script>
-<script src="js/jquery.liSlidik.js"></script>
-
-<script>
-$(function(){
-	$(window).load(function(){
-		$('#slide_2').liSlidik({
-			auto:3000,
-    		duration: 1000
-		});
-	})
-});
-</script>
-<!--[if gte IE 9]>
-  <style type="text/css">
-    .gradient {
-       filter: none;
-    }
-  </style>
-<![endif]-->
-
-<!--[if lte IE 9]>
-  <style type="text/css">
-  	body{
-    	background:url(images/body-bg-ie.png) repeat-x 0 730px;
-    }
-  	.menu, .elastislide-wrapper{
-    	background:url(images/opacity.png);
-    }
-   </style>
-<![endif]-->
-<title>Fashion photographer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="css/liSlidik.css">
+  <link rel="stylesheet" href="css/liSlidik.blackClasic.css">
+  <script src="js/jquery-1.8.min.js"></script>
+  <script src="js/jquery.liSlidik.js"></script>
+  <script>
+    $(function(){
+      $(window).load(function(){
+        $('#slide_2').liSlidik({
+          auto:3000,
+          duration: 1000
+        });
+      })
+    });
+  </script>
+  <title>Fashion photographer</title>
 </head>
 
 <body>
 <div class="karkas">
 	<div class="header">
     	<a href="/"><img src="images/logo.png" class="logo" alt="Fashion photographer" /></a>
-        
+
         <ul class="menu">
         	<li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT ME</a></li>
@@ -53,9 +35,9 @@ $(function(){
             <li><a href="#">CONTACT ME</a></li>
         </ul>
     </div>
-    
+
     <div class="content-main">
-    
+
         <ul id="slide_2" class="slidik">
             <li class="show"><img alt="В центре сюжета — противостояние солдата и робота-терминатора, прибывших в 1984-й год из постапокалиптического 2029 года" src="images/portfolio/1.jpg"></li>
             <li><img alt="Цель терминатора: убить Сару Коннор — девушку, чей ещё нерождённый сын выиграет войну человечества с машинами" src="images/portfolio/2.jpg"></li>
@@ -65,10 +47,10 @@ $(function(){
             <a data-slidik="slide_2" class="prev" href="#">Prev</a>
             <div class="captionWrap"><div data-slidik="slide_2" class="caption"></div></div>
             <div class="portfolio-close"><a href="#"></a></div>
-        </ul>    
-       
-        
-    </div>    
+        </ul>
+
+
+    </div>
 </div>
 <div class="footer-wrapper">
 	<div class="footer-main">

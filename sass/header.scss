@@ -1,0 +1,40 @@
+.header {
+  margin: 0 0 20px 0;
+}
+
+.logo {
+  margin: 190px 0 0 20px;
+}
+
+.menu {
+  overflow: hidden;
+  margin: 230px 0 0 0;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.6);
+
+  li {
+    float: left;
+    font-size: 17px;
+    margin: 10px 10px 0 10px;
+    line-height: 1;
+
+    &:first-child {
+      float: left;
+      font-size: 17px;
+      margin: 10px 10px 0 0;
+      line-height: 1;
+    }
+
+    a {
+      color: #f3f3f3;
+      text-transform: uppercase;
+      padding: 10px 15px 20px 15px;
+      display: block;
+
+      &.active {
+        background: #232323;
+        border-radius: 5px 5px 0 0;
+      }
+    }
+  }
+}
